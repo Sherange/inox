@@ -8,7 +8,7 @@ class Navigation extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
+          <a className="navbar-brand js-scroll-trigger" href="#root">
             inox
           </a>
           <button

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './snippets/Navigation';
 import Layout from './snippets/Layout';
 import AppStore from './snippets/AppStore';
+import Features from './snippets/Features';
 import './App.css';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Navigation></Navigation>
         <Layout></Layout>
+        <Features></Features>
         <AppStore></AppStore>
       </div>
     );

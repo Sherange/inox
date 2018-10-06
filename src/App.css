@@ -9,6 +9,11 @@ dark-gray #ABB2B9
 black #17202A  
 */
 
+.bg-primary {
+  color: #17202A;
+  background: #E5E7E9  !important;
+}
+
 #mainNav .navbar-brand {
   color: #F7F9F9;
   font-size: 50px;

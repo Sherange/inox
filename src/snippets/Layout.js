@@ -16,7 +16,7 @@ class Layout extends Component {
                   href="#download"
                   className="btn btn-outline btn-xl js-scroll-trigger"
                 >
-                  Start Now for Free!
+                  CONTACT US NOW
                 </a>
               </div>
             </div>

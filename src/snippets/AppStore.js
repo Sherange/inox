@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AppStore extends Component {
   render() {
     return (
-      <section className="download bg-primary text-center" id="download">
+      <section className="download bg-primary text-center" id="what-we-do">
         <div className="container">
           <div className="row">
             <div className="col-md-8 mx-auto">
