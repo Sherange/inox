@@ -1,10 +1,58 @@
 
+/* 
+color codes
+purple #7b4397
+white #F7F9F9
+smoke-gray #E5E7E9 
+gray #AEB6BF
+dark-gray #ABB2B9 
+black #17202A  
+*/
+
 #mainNav .navbar-brand {
-  color: #000;
-  font-size: 20px;
+  color: #F7F9F9;
+  font-size: 50px;
   font-weight: 200;
 }
 
 #mainNav .navbar-nav>li>a {
-  color: #dee2e6;
+  color: #F7F9F9;
+}
+
+#mainNav .navbar-toggler {
+  color: #F7F9F9;
+}
+
+#mainNav.navbar-shrink {
+  border-color: rgba(34, 34, 34, 0.1);
+  background-color: #17202A;
+  color: #F7F9F9
+}
+
+#mainNav.navbar-shrink .navbar-nav > li > a, #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+  color: #F7F9F9
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+  color: #F7F9F9;
+  font-size: 20px;
+}
+
+.fa, .fas {
+  font-weight: 900;
+  padding-left: 8px;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: #F7F9F9;
+  border-color: #F7F9F9;
+  background-color: #7b4397;
+}
+@media only screen and (max-width: 768px) {
+
+  #mainNav .navbar-brand {
+    color: #F7F9F9;
+    font-size: 20px;
+    font-weight: 200;
+  }
 }
