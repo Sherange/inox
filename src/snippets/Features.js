@@ -20,7 +20,7 @@ class Features extends Component {
                     <div className="screen">
                       {/* <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! --> */}
                       <img
-                        src="img/demo-screen-1.jpg"
+                        src="../img/iphone-6-homescreen-standard.jpg"
                         className="img-fluid"
                         alt=""
                       />

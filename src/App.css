@@ -43,6 +43,10 @@ black #17202A
   font-size: 20px;
 }
 
+.sm-text {
+  font-size: 16px;
+}
+
 .fa, .fas {
   font-weight: 900;
   padding-left: 8px;
