@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 
-class Features extends Component {
+class AboutUs extends Component {
   render() {
     return (
-      <section className="features" id="features">
+      <section className="features" id="what-we-do">
         <div className="container">
           <div className="section-heading text-center">
-            <h2>Unlimited Features, Unlimited Fun</h2>
-            <p className="text-muted">
-              Check out what you can do with this app theme!
-            </p>
+            <h2>What We Do</h2>
+            <p className="text-muted">Check out what we can do for you!</p>
             <hr />
           </div>
           <div className="row">
@@ -37,21 +35,19 @@ class Features extends Component {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i className="icon-screen-smartphone text-primary" />
-                      <h3>Device Mockups</h3>
+                      <i className="fas fa-desktop text-primary" />
+                      <h3>Web App Solutions</h3>
                       <p className="text-muted">
-                        Ready to use HTML/CSS device mockups, no Photoshop
-                        required!
+                      We develop Web sites and Web appliacations with latest & durable technologies.
                       </p>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i className="icon-camera text-primary" />
-                      <h3>Flexible Use</h3>
+                      <i class="fas fa-mobile-alt" />
+                      <h3>Mobile App Solutions</h3>
                       <p className="text-muted">
-                        Put an image, video, animation, or anything else in the
-                        screen!
+                      We deliver your idea into mobile app with latest mobile app development technologies.
                       </p>
                     </div>
                   </div>
@@ -59,21 +55,20 @@ class Features extends Component {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i className="icon-present text-primary" />
-                      <h3>Free to Use</h3>
+                      <i class="fas fa-server" />
+
+                      <h3>Standalone Solutions</h3>
                       <p className="text-muted">
-                        As always, this theme is free to download and use for
-                        any purpose!
+                      If you have a small scale business, this is ideal for you. We develop best customizable application.
                       </p>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i className="icon-lock-open text-primary" />
-                      <h3>Open Source</h3>
+                      <i class="fas fa-cogs" />
+                      <h3>Hardware Solutions</h3>
                       <p className="text-muted">
-                        Since this theme is MIT licensed, you can use it
-                        commercially!
+                      We have many kinds of hardware solutions which ideal for different types of businesses.
                       </p>
                     </div>
                   </div>
@@ -87,4 +82,4 @@ class Features extends Component {
   }
 }
 
-export default Features;
+export default AboutUs;

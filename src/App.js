@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Navigation from './snippets/Navigation';
-import Layout from './snippets/Layout';
-import AppStore from './snippets/AppStore';
-import Features from './snippets/Features';
-import Video from './snippets/Video';
-import Contact from './snippets/Contact';
-import Footer from './snippets/Footer';
+import Navigation from './components/snippets/Navigation';
+import Home from './components/snippets/Home';
+import AboutUs from './components/snippets/AboutUs';
+import Products from './components/snippets/Products';
+import Video from './components/snippets/Video';
+import ContactUs from './components/snippets/ContactUs';
+import Footer from './components/snippets/Footer';
 import './App.css';
 
 class App extends Component {
@@ -13,11 +13,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation></Navigation>
-        <Layout></Layout>
-        <Features></Features>
-        <AppStore></AppStore>
-        <Video></Video>
-        <Contact></Contact>
+        <Home></Home>
+        <AboutUs></AboutUs>
         <Footer></Footer>
       </div>
     );

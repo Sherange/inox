@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class AppStore extends Component {
+class Products extends Component {
   render() {
     return (
-      <section className="download bg-primary text-center" id="what-we-do">
+      <section className="download bg-primary text-center" id="who-we-are">
         <div className="container">
           <div className="row">
             <div className="col-md-8 mx-auto">
@@ -30,4 +30,4 @@ class AppStore extends Component {
   }
 }
 
-export default AppStore;
+export default Products;

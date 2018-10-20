@@ -6,11 +6,11 @@ white #F7F9F9
 smoke-gray #E5E7E9 
 gray #AEB6BF
 dark-gray #ABB2B9 
-black #17202A  
+black #2f2f2f  
 */
 
 .bg-primary {
-  color: #17202A;
+  color: #2f2f2f;
   background: #E5E7E9  !important;
 }
 
@@ -30,7 +30,7 @@ black #17202A
 
 #mainNav.navbar-shrink {
   border-color: rgba(34, 34, 34, 0.1);
-  background-color: #17202A;
+  background-color: #2f2f2f;
   color: #F7F9F9
 }
 
@@ -57,6 +57,20 @@ black #17202A
   border-color: #F7F9F9;
   background-color: #7b4397;
 }
+
+section.features .section-heading {
+  margin-bottom: 10px;
+}
+
+footer {
+ background-color: #2f2f2f;
+}
+
+footer  p {
+  color : #F7F9F9;
+  font-size: 14px;
+}
+
 @media only screen and (max-width: 768px) {
 
   #mainNav .navbar-brand {
@@ -64,4 +78,9 @@ black #17202A
     font-size: 20px;
     font-weight: 200;
   }
+}
+
+footer hr {
+  border-color: #F7F9F9;
+  margin-bottom: 10px;
 }

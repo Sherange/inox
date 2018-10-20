@@ -9,7 +9,7 @@ class Navigation extends Component {
       >
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#root">
-            inox
+            Inox IT
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"

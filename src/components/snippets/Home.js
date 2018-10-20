@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Layout extends Component {
+class Home extends Component {
   render() {
     return (
       <header className="masthead">
@@ -8,7 +8,7 @@ class Layout extends Component {
           <div className="row h-100">
             <div className="col-lg-7 my-auto">
               <div className="header-content mx-auto">
-                <h1> Inox - It Solutions</h1>
+                <h1>Web Applicaton & Mobile App Development</h1>
                 <p className="mb-5">Web Applicaton and Mobile App Development</p>
                 <h3 >We design modern websites, unique for every customer reflecting their preferences and suiting their business needs</h3>
                 <a
@@ -45,4 +45,4 @@ class Layout extends Component {
   }
 }
 
-export default Layout;
+export default Home;

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class Contact extends Component {
+class ContactUs extends Component {
   render() {
     return (
-      <section className="contact bg-primary" id="contact">
+      <section className="contact bg-primary" id="contact-us">
         <div className="container">
           <h2>
             We
@@ -33,4 +33,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default ContactUs;
