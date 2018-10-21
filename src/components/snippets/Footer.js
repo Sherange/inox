@@ -24,12 +24,18 @@ class Footer extends Component {
               </strong>
             </div>
 
-            <div className="col-3">
-            <strong>
+            <div className="col-3 d-none d-sm-block">
+              <strong>
                 <p>Get Our Offers</p>
               </strong>
-            <br></br>
-            <iframe src="https://www.fiverr.com/anywhere/anywhere_widget/5bcb2af71d3f4b000be3a753" width="190" height="75" frameBorder="0" scrolling="no"/>
+              <br />
+              <iframe
+                src="https://www.fiverr.com/anywhere/anywhere_widget/5bcb2af71d3f4b000be3a753"
+                width="190"
+                height="75"
+                frameBorder="0"
+                scrolling="no"
+              />
             </div>
           </div>
           <hr />
