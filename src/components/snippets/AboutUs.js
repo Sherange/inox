@@ -44,7 +44,7 @@ class AboutUs extends Component {
                   </div>
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i class="fas fa-mobile-alt" />
+                      <i className="fas fa-mobile-alt" />
                       <h3>Mobile App Solutions</h3>
                       <p className="text-muted">
                       We deliver your idea into mobile app with latest mobile app development technologies.
@@ -55,7 +55,7 @@ class AboutUs extends Component {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i class="fas fa-server" />
+                      <i className="fas fa-server" />
 
                       <h3>Standalone Solutions</h3>
                       <p className="text-muted">
@@ -65,7 +65,7 @@ class AboutUs extends Component {
                   </div>
                   <div className="col-lg-6">
                     <div className="feature-item">
-                      <i class="fas fa-cogs" />
+                      <i className="fas fa-cogs" />
                       <h3>Hardware Solutions</h3>
                       <p className="text-muted">
                       We have many kinds of hardware solutions which ideal for different types of businesses.

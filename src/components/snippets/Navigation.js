@@ -8,9 +8,10 @@ class Navigation extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#root">
-            Inox IT
-          </a>
+          <i class="fas fa-space-shuttle fa-rotate-270"></i>
+          <p className="navbar-brand js-scroll-trigger">
+            Webx-space
+          </p>
           <button
             className="navbar-toggler navbar-toggler-right"
             type="button"
@@ -26,19 +27,19 @@ class Navigation extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#what-we-do">
+                <p className="nav-link js-scroll-trigger">
                   WHAT WE DO
-                </a>
+                </p>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#who-we-are">
+                <p className="nav-link js-scroll-trigger">
                   WHO WE ARE
-                </a>
+                </p>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#contact-us">
+                <p className="nav-link js-scroll-trigger">
                   CONTACT US
-                </a>
+                </p>
               </li>
             </ul>
           </div>
