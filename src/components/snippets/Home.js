@@ -10,13 +10,13 @@ class Home extends Component {
               <div className="header-content mx-auto">
                 <h1>Web Applicaton & Mobile App Development</h1>
                 <p className="mb-5">Web Applicaton and Mobile App Development</p>
-                <h3 >We design modern websites, unique for every customer reflecting their preferences and suiting their business needs</h3>
-                <a
-                  href="#download"
+                <h3 >We design and develop modern web applications, unique for every customer reflecting their preferences and suiting their business needs</h3>
+                <p
+                  onClick={ () =>  { this.props.handleClick("contactUs") }}
                   className="btn btn-outline btn-xl js-scroll-trigger"
                 >
                   CONTACT US NOW
-                </a>
+                </p>
               </div>
             </div>
             <div className="col-lg-5 my-auto">

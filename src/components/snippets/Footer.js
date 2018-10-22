@@ -8,7 +8,7 @@ class Footer extends Component {
           <div className="row">
             <div className="col-3">
               <strong>
-                <p>Inox IT</p>
+                <p>Webx-Space</p>
               </strong>
             </div>
 
@@ -39,7 +39,7 @@ class Footer extends Component {
             </div>
           </div>
           <hr />
-          <p>&copy; 2018 All rights reserved. By Inox It Solutions.</p>
+          <p>&copy; 2018 All rights reserved. By webx-space.com</p>
           <ul className="list-inline">
             <li className="list-inline-item">
               <a href="#">Privacy</a>

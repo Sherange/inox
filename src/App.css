@@ -37,6 +37,10 @@ black #2f2f2f
   text-transform: uppercase;
 }
 
+#mainNav .navbar-nav > li > p:hover {
+  color: #fdcc52;
+}
+
 #mainNav .navbar-toggler {
   color: #f7f9f9;
 }
@@ -47,9 +51,8 @@ black #2f2f2f
   color: #f7f9f9;
 }
 
-#mainNav.navbar-shrink .navbar-nav > li > p,
 #mainNav.navbar-shrink .navbar-nav > li > p:focus {
-  color: #f7f9f9;
+  color: #fdcc52;
 }
 
 #mainNav.navbar-shrink .navbar-brand {
@@ -86,14 +89,15 @@ footer {
 
 footer p {
   color: #f7f9f9;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 768px) {
   #mainNav .navbar-brand {
     color: #f7f9f9;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 18px;
+    font-weight: 100;
   }
 }
 

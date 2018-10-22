@@ -8,9 +8,9 @@ class Navigation extends Component {
         id="mainNav"
       >
         <div className="container">
-          <i class="fas fa-space-shuttle fa-rotate-270"></i>
-          <p className="navbar-brand js-scroll-trigger">
-            Webx-space
+          
+          <p className="navbar-brand js-scroll-trigger" onClick={ () => { this.props.handleClick("home")}}>
+            Webx<span><i className="" id="brand"></i></span> Space
           </p>
           <button
             className="navbar-toggler navbar-toggler-right"
@@ -27,17 +27,17 @@ class Navigation extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <p className="nav-link js-scroll-trigger">
+                <p className="nav-link js-scroll-trigger" onClick={ () => { this.props.handleClick("aboutUs")}}>
                   WHAT WE DO
                 </p>
               </li>
               <li className="nav-item">
-                <p className="nav-link js-scroll-trigger">
+                <p className="nav-link js-scroll-trigger" onClick={ () => { this.props.handleClick("contactUs")}}>
                   WHO WE ARE
                 </p>
               </li>
               <li className="nav-item">
-                <p className="nav-link js-scroll-trigger">
+                <p className="nav-link js-scroll-trigger" onClick={ () => { this.props.handleClick("contactUs")}}>
                   CONTACT US
                 </p>
               </li>
